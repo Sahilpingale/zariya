@@ -1,0 +1,149 @@
+/* Colors
+font dark #091A20;
+font light #5D7D88
+
+*/
+
+
+/* Common Elements */
+.container{
+
+}
+
+
+
+
+html{
+    margin: 0;
+}
+body{
+    margin:0;
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    height: 100%;
+    width: 100%;
+}
+/* .body-img{
+    background-image: url("img/background.png");
+    position: fixed;
+} */
+.section-hero{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    position: fixed;
+    top: 2.5rem;
+    left: 4.5rem;
+}
+.nav-text{
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: "Samarkan";
+    
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+.hero p{
+    font-size: 12.5rem;
+    color: #091A20;
+    font-family: "Samarkan";
+    justify-items: center;
+}
+.arrow-img{
+    display: inline-block;
+}
+.arrow-container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    height: 28vh;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.arrow p{
+    color: #5D7D88;
+    font-family: 'Avenir LT Std', sans-serif;
+    font-weight: 400;
+    justify-items: center;
+}
+.icons{
+    position: fixed;
+    bottom: 2.5rem;
+    right: 4.5rem;
+    display: flex;
+    gap: 2rem;
+}
+.song{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    height: 882px;
+    /* padding-bottom: 1.56rem; */
+}
+.song-warning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.song-warning p{
+    color: #7798A4;
+    font-family: 'Avenir LT Std', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.song-warning img{
+    display: inline-block;
+}
+
+
+
+/***************SECTION ABOUT-ME********** */
+.about-me{
+    height: 882px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 6.4rem;
+}
+.about-me-name{
+    color: #091A20;
+    font-family: 'Samarkan';
+    font-size: 4.8rem;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: 12.8rem 12.8rem;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+.last-name{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.about-me-description{
+    font-size:1rem;
+    color:  #091A20;
+    font-family: 'Avenir LT Std', sans-serif;
+    width: 30rem;
+}
+.about-me-description span{
+    color:#5D7D88;
+}
+
