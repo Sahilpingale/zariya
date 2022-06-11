@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zariya</title>
     <link rel="stylesheet" href="./style.css">
-    <!-- Font Samarkan -->
-    <link href="http://fonts.cdnfonts.com/css/samarkan" rel="stylesheet">
+    <!-- Font Samarkan --> -->
+    <!-- <!-- <link href="http://fonts.cdnfonts.com/css/samarkan" rel="stylesheet"> -->
     <style>
         @import url('http://fonts.cdnfonts.com/css/samarkan');
     </style>
@@ -17,18 +17,29 @@
         @import url('http://fonts.cdnfonts.com/css/avenir-lt-std');
     </style>
 
+    
 </head>
 <body class="body-img">
-    <section class="section-hero">
-        <div class="icons">
+
+    <!-- Sticky Social Icons -->
+    <div class="icons">
+        <hr class="line-style">
+        <div class="icon-container">
+            <span class="contact-me">Contact me</span>
             <img src="./img/spotify.svg" alt="">
             <img src="./img/youtube.svg" alt="">
         </div>
-        <nav>
-            <div class="nav-text">
-                Zariya
-            </div>
-        </nav>
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-text">
+            Zariya
+        </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <section class="section-hero">
         <div class="hero">
             <p>
                 zariya
@@ -41,13 +52,15 @@
             </div>
         </div>
     </section>
+
+    <!-- Section Song Warning -->
     <section class="song">
         <div class="song-warning">
             <div class="song-warning-img"><img src="./img/speaker.svg" alt=""></div>
             
             <p>For the best possible experience, please enable sound</p>
         </div>
-
+    <!-- Section About Me -->
     </section>
     <section class="about-me">
         <div class="about-me-name">
@@ -58,5 +71,49 @@
             <p>The alias of <span>electronic musician and producer</span> Aseem Anand Kurkekar, Zariya blends indian traditional music,hip-hop and electronica into a <span>seamless fusion of new age music.</span></p>
         </div>
     </section>
+
+    <!-- Section Contact Me -->
+    <section class="section-contact-me close  ">
+        <img class="close-btn" src="./img/close.png" alt="">
+        <h2 class="contact-me-title">get in touch</h2>
+        <div >
+            <form class="contact-me-form">
+                <div >
+                    <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Name"
+                    name="full-name"
+                    required
+                    />
+                </div>
+                <div>
+
+                    <input
+                    id="email"
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                    required
+                    />
+                </div>
+                <div class="col-message">
+                    <input
+                    id="message"
+                    type="text"
+                    placeholder="Message"
+                    name="message"
+                    required
+                    />
+                </div>
+                <div class="col-button">
+                    <hr class="line-style">
+                    <button class="form-btn">Submit</button>
+                </div>
+                </form>
+            </div>
+    </section>
+    <!-- Javascript file -->
+    <script src="index.js"></script>
 </body>
 </html>
